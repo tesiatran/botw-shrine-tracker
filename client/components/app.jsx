@@ -17,15 +17,24 @@ class App extends React.Component {
       })
       .then(data => {
         this.setState({
-          grades: data
+          grades: data,
+          average: null
         });
       });
+  }
+
+  getAverageGrade() {
+    var averageGrade;
+    this.state.grades.map(studentGrade => {
+      averageGrade += studentGrade.grade;
+    });
+    return (averageGrade / this.state.grades.length).toFixed(1) + '%';
   }
 
   render() {
     return (
       <div>
-        <Header text="Student Grade Table"/>
+        <Header text="Student Grade Table" average={this.getAverageGrade()}/>
         <GradeTable allData={this.state.grades}/>
       </div>
     );
