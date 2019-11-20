@@ -4,6 +4,8 @@
 
 ## Project Details
 
+Shrine Tracker is a place for you to track the completion status of each shrine in The Legend of Zelda: Breath of the Wild. 
+
 ### Built with:
 
 - JavaScript
