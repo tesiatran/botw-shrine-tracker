@@ -4,7 +4,7 @@
 
 ## Project Details
 
-Shrine Tracker is a place for you to track the completion status of each shrine in The Legend of Zelda: Breath of the Wild. You can keep track of what type of shrine it is (dropdown), the location of it (input), whether you've completed it/acquired the spirit orb (boolean), and how many chests you found (number).
+Shrine Tracker is a place for you to track the completion status of each shrine in The Legend of Zelda: Breath of the Wild. You can keep track of what type of shrine it is (dropdown), the location of it (input), whether you've completed it/acquired the spirit orb (boolean), and how many chests you found (number). You'll be able to add, delete, and modify as necessary.
 
 ### Built with:
 
