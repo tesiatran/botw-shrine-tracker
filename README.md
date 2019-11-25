@@ -1,6 +1,6 @@
 # Shrine Tracker
 
-[Live Site]()
+[Live Site](http://shrines.tesiatran.com/)
 
 ## Project Details
 
@@ -19,10 +19,10 @@ Shrine Tracker is a place for you to track the completion status of each shrine 
 ## Initial Setup
 
 1. Fork this repository and clone the fork using your terminal.
-    - `git clone https://github.com/[Your User Name]/monsters-memory-match.git`
+    - `git clone https://github.com/[Your User Name]/botw-shrine-tracker.git`
 
-2. Navigate to the `/monsters-memory-match` directory.
-    - `cd monsters-memory-match`
+2. Navigate to the `/botw-shrine-tracker` directory.
+    - `cd botw-shrine-tracker`
 
 3. Open the `index.html` file and enjoy!
 
